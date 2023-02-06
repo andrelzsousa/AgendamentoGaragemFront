@@ -1,0 +1,15 @@
+.cabecalho {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1em 0;
+}
+
+.cabecalho__botao {
+  background-color: var(--vermelho);
+  color: var(--branco);
+  font-size: 25px;
+  border-radius: 40px;
+  padding: 0.4em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}

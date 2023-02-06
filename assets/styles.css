@@ -1,0 +1,34 @@
+@import url(../assets/styles/header.css);
+@import url(../assets/styles/banner.css);
+@import url(../assets/styles/principal.css);
+@import url(../assets/styles/facilitadores.css);
+@import url(../assets/styles/construcao.css);
+
+:root {
+  --roxo: #6763b8;
+  --azul: #4139a9;
+  --laranja: #ff6002;
+  --vermelho: #de3806;
+  --amarelo: #ffa300;
+  --rosa: #c71d66;
+  --cinza: #c4c4c4;
+  --preto: #000000;
+  --branco: #ffffff;
+  --fonte-principal: "Inter";
+}
+
+body {
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 5em;
+  background-color: var(--preto);
+  position: relative;
+}
+
+.fundo {
+  width: 50%;
+  right: 80%;
+  bottom: 85%;
+  position: absolute;
+}

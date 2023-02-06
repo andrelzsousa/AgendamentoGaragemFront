@@ -1,0 +1,30 @@
+.facilitadores {
+  text-align: center;
+}
+
+.facilitadores__titulo {
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--vermelho);
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.facilitadores__lista {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10em;
+  row-gap: 3em;
+  justify-content: center;
+}
+
+.facilitador__nome {
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--vermelho);
+  margin: 0.3em 0 0.5em 0;
+}
+
+.facilitador__email {
+  color: var(--laranja);
+}

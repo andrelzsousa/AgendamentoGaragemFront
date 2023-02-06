@@ -1,0 +1,38 @@
+.principal {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.principal__container {
+  padding: 0 3.5em;
+}
+
+.principal__titulo {
+  font-size: 50px;
+  color: var(--vermelho);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.principal__texto {
+  color: var(--preto);
+  margin-bottom: 1em;
+}
+
+.principal__texto-inferior {
+  margin-bottom: 3em;
+}
+
+.principal__botao {
+  background-color: var(--vermelho);
+  color: var(--branco);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.4em 1.5em;
+  border-radius: 40px;
+  font-size: 25px;
+  margin: 4em 0;
+}

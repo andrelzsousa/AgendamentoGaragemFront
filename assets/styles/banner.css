@@ -1,0 +1,6 @@
+.banner {
+  background-color: var(--branco);
+  padding: 5em 2em;
+  margin: 0 0 2.5em 0;
+  border-radius: 40px;
+}

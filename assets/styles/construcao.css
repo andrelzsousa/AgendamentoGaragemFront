@@ -1,0 +1,21 @@
+.construcao {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 1em 0.6em 1em;
+  text-align: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+.construcao__titulo {
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--vermelho);
+}
+
+.construcao__texto {
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--laranja);
+  padding-top: 1em;
+}
